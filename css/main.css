@@ -24,19 +24,20 @@ body {
 
 img {
   display: block;
-  width: 200%
+  width: 100%;
 }
 
 .dino-wrap {
   display: none;
-  width: 200%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
     display: inline-flex;
-    width: 200%;
+    overflow: hidden;
+    width: 100%;
   }
 
 }
@@ -45,7 +46,8 @@ img {
 
   .dino {
     display: inline-flex;
-    width: 210%;
+    overflow: hidden;
+    width: 110%;
   }
 
 }
@@ -54,7 +56,8 @@ img {
 
   .dino {
     display: inline-flex;
-    width: 220%;
+    overflow: hidden;
+    width: 120%;
   }
 
 }
