@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -22,19 +23,19 @@ body {
 }
 
 img {
-  display: none;
+  display: inline;
   width: 100%;
 }
 
 .dino-wrap {
-  display: none;
+  display: relative;
   width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
-    display: inline-block;
+    display: flex;
     width: 100%;
   }
 
@@ -43,7 +44,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    display: inline-block;
+    display: flex;
     width: 110%;
   }
 
@@ -52,7 +53,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    display: inline-block;
+    display: flex;
     width: 120%;
   }
 
