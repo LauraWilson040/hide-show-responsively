@@ -52,8 +52,8 @@ img {
     width: 33.33%;
   }
 
-  .dino:nth-child(2) {
-    display: block;
+  .dino:last-child {
+    display: none;
   }
 
 }
@@ -64,7 +64,7 @@ img {
     width: 25%;
   }
 
-  .dino:nth-child(2) {
+  .dino:nth-child(odd) {
     display: block;
   }
 
