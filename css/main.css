@@ -10,7 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  margin: 0;
 }
 
 *, *::before, *::after {
@@ -25,11 +24,13 @@ body {
 img {
   display: block;
   width: 100%;
+  margin: 0;
 }
 
 .dino-wrap {
   display: none;
   width: 100%;
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
