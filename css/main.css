@@ -16,27 +16,23 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  display: block;
-  margin: 8px;
-}
-
 img {
   display: block;
   width: 100%;
-  margin: 0;
 }
 
 .dino-wrap {
+  display: flex;
+}
+
+.dino {
   display: none;
-  width: 100%;
-  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
-    display: inline-flex;
+    display: none;
     width: 100%;
   }
 
@@ -45,7 +41,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    display: inline-flex;
+    display: none;
     width: 110%;
   }
 
@@ -54,7 +50,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    display: inline-flex;
+    display: none;
     width: 120%;
   }
 
