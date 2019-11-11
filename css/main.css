@@ -22,7 +22,7 @@ img {
 }
 
 .dino-wrap {
-  display: inline-flex;
+  display: flex;
 }
 
 @media only screen and (min-width: 25em) {
