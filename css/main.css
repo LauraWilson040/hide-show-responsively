@@ -23,12 +23,25 @@ img {
 
 .dino-wrap {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.dino {
+  width: 100%;
+}
+
+.dino:nth-child(2) {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
-    width: 100%;
+    width: 50%;
+  }
+
+  .dino:nth-child(2) {
+    display: block;
   }
 
 }
@@ -36,7 +49,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    width: 110%;
+    width: 33.33%;
   }
 
 }
@@ -44,7 +57,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    width: 120%;
+    width: 25%;
   }
 
 }
