@@ -52,12 +52,20 @@ img {
     width: 33.33%;
   }
 
+  .dino:nth-child(2) {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .dino {
     width: 25%;
+  }
+
+  .dino:nth-child(2) {
+    display: block;
   }
 
 }
