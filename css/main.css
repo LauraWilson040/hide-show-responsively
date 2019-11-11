@@ -29,6 +29,11 @@ img {
 
   .dino {
     width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .dino:last-child {
+    display: none;
   }
 
 }
@@ -37,8 +42,12 @@ img {
 
   .dino {
     width: 110%;
+    flex-wrap: nowrap;
   }
 
+  .dino:last-child {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 60em) {
