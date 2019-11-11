@@ -64,7 +64,7 @@ img {
     width: 25%;
   }
 
-  .dino:nth-child (1+2) {
+  .dino:nth-child(odd) {
     display: block;
   }
 
