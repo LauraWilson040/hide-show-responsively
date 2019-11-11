@@ -52,7 +52,7 @@ img {
     width: 33.33%;
   }
 
-  .dino:last-child {
+  .dino:first-child {
     display: none;
   }
 
