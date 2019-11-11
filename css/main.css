@@ -23,19 +23,18 @@ body {
 }
 
 img {
-  display: inline;
-  width: 100%;
+  display: inline-block;
 }
 
 .dino-wrap {
-  display: relative;
+  display: none;
   width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
-    display: flex;
+    display: inline-flex;
     width: 100%;
   }
 
@@ -44,7 +43,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    display: flex;
+    display: inline-flex;
     width: 110%;
   }
 
@@ -53,7 +52,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    display: flex;
+    display: inline-flex;
     width: 120%;
   }
 
