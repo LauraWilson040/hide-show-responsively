@@ -36,7 +36,6 @@ img {
 
   .dino {
     display: inline-flex;
-    overflow: hidden;
     width: 100%;
   }
 
@@ -46,7 +45,6 @@ img {
 
   .dino {
     display: inline-flex;
-    overflow: hidden;
     width: 110%;
   }
 
@@ -56,7 +54,6 @@ img {
 
   .dino {
     display: inline-flex;
-    overflow: hidden;
     width: 120%;
   }
 
