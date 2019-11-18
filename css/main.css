@@ -50,6 +50,10 @@ img {
     display: block;
   }
 
+  .dino:last-child {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -75,6 +79,10 @@ img {
   }
 
   .dino:nth-child(odd) {
+    display: block;
+  }
+
+  .dino:last-child {
     display: block;
   }
 
