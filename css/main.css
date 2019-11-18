@@ -36,6 +36,10 @@ img {
   display: none;
 }
 
+.dino:last-child {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .dino {
@@ -56,6 +60,10 @@ img {
 
   .dino:first-child {
     display: none;
+  }
+
+  .dino:last-child {
+    display: block;
   }
 
 }
